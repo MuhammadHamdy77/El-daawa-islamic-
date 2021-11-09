@@ -564,4 +564,21 @@ width: 100%;
     .header .links-header li:not(:first-of-type), .header .links-header li:not(:last-of-type){
         margin-bottom: 10px;
     }
+    .footer .container{
+        flex-direction: column;
+    }
+    .footer .container .right{
+        width: 100%;
+        text-align: center;
+    }
+    .footer .container .left{
+        text-align: center;
+        width: 100%;
+    }
+    .footer .container .left p,
+    .footer .container .left span
+    {
+
+        font-size: 15px;
+    }
 }
